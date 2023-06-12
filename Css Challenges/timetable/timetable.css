@@ -1,0 +1,168 @@
+.outer {
+	width: 900px; 
+	height: 500px; 
+display: grid; 
+border: 2px solid black;
+padding: 5px; 
+ grid-template-rows: 4; 
+ grid-template-columns: 8; 
+ text-align: center; 
+ align-content: center; 
+ font-family: Impact , Charcoal,sans-serif; 
+ grid-gap:3px; 
+ background: grey;  
+ 
+}
+.bl {
+  background: darkgray;   
+}
+.time {
+	background: yellow; 
+}
+.day {
+	background: yellow; 
+}
+.blank {
+	grid-row: 1; 
+	grid-column: 1;
+	border: 1px solid black; 
+	background: black; 
+}
+.one {
+	grid-row: 1; 
+	grid-column: 2; 
+	border: 1px solid black;
+}
+.two {
+	grid-row: 1; 
+	grid-column: 3; 
+	border: 1px solid black;
+}
+.three {
+	grid-row: 1; 
+	grid-column: 4; 
+	border: 1px solid black;
+}
+.four {
+	grid-row: 1; 
+	grid-column: 5; 
+	border: 1px solid black;
+}
+.five {
+	grid-row: 1; 
+	grid-column: 6; 
+	border: 1px solid black;
+}
+.six {
+	grid-row: 1; 
+	grid-column: 7; 
+	border: 1px solid black;
+}
+.seven {
+	grid-row: 1; 
+	grid-column: 8; 
+	border: 1px solid black;
+}
+.eight {
+	grid-row: 1; 
+	grid-column: 9; 
+	border: 1px solid black;
+}
+.nine {
+	grid-row: 1; 
+	grid-column: 10;
+	border: 1px solid black; 
+}
+.mon {
+  grid-row: 2; 
+  grid-column: 1; 
+  border: 1px solid black;
+}
+.tues {
+grid-row: 3; 
+  grid-column: 1;
+  border: 1px solid black;
+}
+.Wed {
+grid-row: 4; 
+  grid-column: 1;
+  border: 1px solid black;
+}
+.Thur {
+grid-row: 5; 
+  grid-column: 1;
+  border: 1px solid black;
+}
+
+.block1 {
+	grid-row: 2; 
+	grid-column: 4 ; 
+	border: 1px solid black;
+}
+.block2 {
+	grid-row: 2; 
+	grid-column: 6 ; 
+	border: 1px solid black;
+}
+
+.block3 {
+	grid-row: 3; 
+	grid-column: 6 ; 
+	border: 1px solid black;
+}
+.block4 {
+	grid-row:3 ; 
+	grid-column: 7 ; 
+	border: 1px solid black;
+}
+.block5 {
+	grid-row:3 ; 
+	grid-column: 9 ; 
+	border: 1px solid black;
+}
+.block6 {
+	grid-row: 4; 
+	grid-column: 2 ; 
+	border: 1px solid black;
+}
+.block7 {
+	grid-row: 4; 
+	grid-column: 3 ; 
+	border: 1px solid black;
+}
+.block8 {
+	grid-row: 4; 
+	grid-column:  4; 
+	border: 1px solid black;
+}
+.block9 {
+	grid-row: 4; 
+	grid-column: 6 ; 
+	border: 1px solid black;
+}
+.block10 {
+	grid-row: 4; 
+	grid-column: 8 ; 
+	border: 1px solid black;
+}
+.block11 {
+	grid-row:5 ; 
+	grid-column: 3 ; 
+	border: 1px solid black;
+}
+.block12 {
+	grid-row: 5; 
+	grid-column: 4 ; 
+	border: 1px solid black;
+}
+.block13 {
+	grid-row:5 ; 
+	grid-column: 5 ; 
+	border: 1px solid black;
+
+}
+.block14 {
+	grid-row: 5; 
+	grid-column: 6 ; 
+	border: 1px solid black;
+}

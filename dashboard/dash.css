@@ -1,0 +1,253 @@
+ * {
+ 	margin: 0; 
+ 	padding: 0; 
+ 	box-sizing: border-box;
+ 	font-family: 'Helvetica'; 
+ 	font-size: 15px; 
+ }
+ .body1 {
+ 	width: 100%; 
+ 	display: flex; 
+ 	background:white; 
+ 	justify-content: center;
+
+ }
+ .aligning {
+ 	width: 80%; 
+ 	height: 100vh; 
+ 	background: yellow; 
+ 	z-index: 1; 
+ }
+.header1 {
+	width: 20%; 
+	height: 100vh; 
+	position: fixed;   
+	background: darkgrey;   
+	font-family: 'Montserrat';
+	color: white;  
+
+}
+.divheader1 {
+	width: 100%; 
+	height: 60px;   
+	font-family: monospace; 
+	font-weight: bold; 
+	letter-spacing: 2px;  
+	background: transparent; 
+	border-bottom: 2px solid white; 
+
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+
+}
+.headinginside {
+    font-size: 1.6rem;
+}
+.section1bar {
+	width: 75%;  
+	height: 60px; 
+	background: white; 
+	position: relative; left: 25%; 
+	padding: 0px 15px 0px 15px;    
+	z-index: 100; 
+
+	display: flex; 
+	justify-content: space-between;
+	align-items: center;  
+}
+.divsearch {
+	width: 30%; 
+	height: 50%; 
+}
+.headerheader {
+ width: 80%; 
+ height: 100%; 
+ border-radius: 5px; 
+ border: 1px solid black; 
+ background: white; 
+ padding-left: 3%; 
+}
+.buttonsearch { 
+	height: 100%; 
+	border-radius: 5px; 
+	padding: 0% 2%; 
+	border: 1px solid black; 
+	background: lightblue; 
+	cursor: pointer; 
+
+	transition: all 0.2s; 
+}
+.buttonsearch:hover {
+	background: skyblue; 
+
+}
+.unorderedlist {
+	width: 37%; 
+    height: 45%; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+
+}
+li {
+	display: inline; 
+}
+.listone {
+   border-radius: 100%; 
+   padding: 0.6rem; 
+   background: white;  
+   border: 1px solid darkgrey;
+   text-shadow: 1.3px 1.3px 1.3px darkgrey; 
+   box-shadow: 1.3px 1.3px 1.3px 1.3px darkgrey;  
+   cursor: pointer; 
+
+   transition: all 0.3s; 
+}
+.listone:hover {
+	border: 1px solid grey;  
+	background: silver; 
+	box-shadow: 0px 0px 0px 0px; 
+}
+.section2grid {
+	width: 75%; 
+    height: 150vh; 
+	background: white;    
+	position: relative; left: 25%; 
+
+	display: grid; 
+	grid-gap: 16px; 
+	padding: 16px; 
+	grid-template-rows: 1fr 3fr 5fr 3fr;
+	grid-template-areas: 
+	"top1 top2 top3 top4"
+	"mid1 mid1 mid2 mid2"
+	"end end end end"
+	"end2 end2 end3 end3"; 
+}
+.top1 {
+	grid-area: top1; 
+	background: darkgrey; 
+	border-radius: 4px;
+	border: 2px solid white; 
+	padding-left: 20px; 
+	font-size: 1rem; 
+
+	transition: all .3s;
+}
+.top1:hover {
+	background:grey;  
+}
+.top2:hover {
+	background:grey;  
+}
+.top2 {
+
+	grid-area: top2; 
+	background: darkgrey; 
+	border-radius: 4px;  
+	padding-left: 20px; 
+    border: 1px solid white; 
+    font-size: 1rem; 
+
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: left;  
+}
+.top3 {
+	grid-area: top3; 
+	background: darkgrey;  
+	border-radius: 4px; 
+	border: 1px solid white; 
+}
+.top4 {
+	grid-area: top4; 
+	background: darkgrey; 
+	border-radius: 4px; 
+	border: 1px solid white; 
+}
+.mid1 {
+	grid-area: mid1; 
+	background: silver;  
+	border-radius: 4px; 
+	
+}
+.mid2 {
+	grid-area: mid2; 
+	background: silver;  
+	border-radius: 4px; 
+	
+}
+.end {
+	grid-area: end; 
+	
+	z-index: 2; 
+	border-radius: 6px; 
+	overflow: hidden; 
+
+}
+.end2 {
+	grid-area: end2; 
+	background: silver; 
+	z-index: 200; 
+	border-radius: 6px; 
+	overflow: hidden; 
+
+}
+.end3 {
+	grid-area: end3; 
+	background: yellow; 
+	z-index: 2; 
+	border-radius: 6px; 
+	overflow: hidden; 
+
+}
+.image1 {
+	width: 100%; 
+}
+@media all and (max-width: 1000px) {
+			.section2grid {
+				grid-template-rows: 1fr 1fr 3fr 3fr 4fr 3fr;
+				grid-template-areas: 
+				"top1 top2"
+				"top3 top4"
+				"mid1 mid1"
+				"mid2 mid2"
+				"end end"
+				"end2 end2"
+				"end3 end3"; 
+		                  }
+		    * {
+		    	font-size: 13px; 
+		    }
+		    .unorderedlist {
+				width: 50%; 
+
+			    display: flex; 
+			    flex-direction: row; 
+			    justify-content: space-between; 
+			    align-items: center; 
+
+}
+.divsearch {
+	width: 40%; 
+	height: 45%; 
+}
+}
+@media all and (max-width: 700px) {
+			.section2grid {
+				grid-template-rows: 1fr 1fr 1fr 1fr 2.5fr 2.5fr 4fr 3.5fr 3.5fr;
+				grid-template-areas: 
+				"top1"
+				"top2"
+				"top3"
+				"top4"
+				"mid1"
+				"mid2" 
+				"end"
+				"end2"
+				"end3"; 
+		                  }
+}

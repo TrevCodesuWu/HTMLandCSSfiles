@@ -1,0 +1,410 @@
+* {
+	margin: 0px; 
+	padding: 0; 
+	background: lightskyblue ;   
+	position: relative;
+}
+.outter {
+ width: 400px ; 
+ height: 400px ; 
+ background: linear-gradient(to right , blue , darkorchid);  
+ position: absolute;top: 140px;left: 35%;  
+ display: flex; 
+ justify-content: center; 
+ align-items: center; 
+}
+.main {
+   width: 260px;
+   height: 260px; 
+   background: transparent; 
+   border: 5px solid white; 
+   position: absolute;
+}
+
+@keyframes animation1 {
+	0% { transform: rotate(0deg);
+       border-radius: 0%;
+	}
+	50%{
+		transform: rotate(180deg);
+	}
+	100% {
+          transform: rotate(360deg); 
+          border-radius: 50%;
+          width: 80px;
+          height: 80px;
+	}
+}
+
+.div1 {
+ animation-name: animation1; 
+   animation-delay: 2s; 
+   animation-timing-function: ease-in-out; 
+   animation-direction: alternate; 
+   animation-duration: 2s; 
+   animation-iteration-count: 2;
+}
+
+@keyframes animation2 {
+	0% { transform: rotate(0deg);
+       border-radius: 0%;
+	}
+	
+	100% {
+          transform: rotate(330deg); 
+          border-radius: 50%;
+          width: 80px;
+          height: 80px;
+	}
+}
+.div2 {
+ animation-name: animation2; 
+   animation-delay: 2s; 
+   animation-timing-function: ease-in-out; 
+   animation-direction: alternate; 
+   animation-duration: 2s; 
+   animation-iteration-count: 2; 
+}
+
+@keyframes animation3 {
+	0% { transform: rotate(0deg);
+       border-radius: 0%;
+	}
+	
+	100% {
+          transform: rotate(300deg); 
+          border-radius: 50%;
+          width: 80px;
+          height: 80px;
+	}
+}
+.div3 {
+ animation-name: animation3; 
+   animation-delay: 2s; 
+   animation-timing-function: ease-in-out; 
+   animation-direction: alternate; 
+   animation-duration: 2s; 
+   animation-iteration-count: 2; 
+}
+
+@keyframes animation4 {
+	0% { transform: rotate(0deg);
+       border-radius: 0%;
+	}
+	
+	100% {
+          transform: rotate(270deg); 
+          border-radius: 50%;
+          width: 80px;
+          height: 80px;
+	}
+}
+.div4 {
+ animation-name: animation4; 
+   animation-delay: 2s; 
+   animation-timing-function: ease-in-out; 
+   animation-direction: alternate; 
+   animation-duration: 2s; 
+   animation-iteration-count: 2; 
+}
+
+@keyframes animation5 {
+	0% { transform: rotate(0deg);
+       border-radius: 0%;
+	}
+	
+	100% {
+          transform: rotate(240deg); 
+          border-radius: 50%;
+          width: 80px;
+          height: 80px;
+	}
+}
+.div5 {
+ animation-name: animation5; 
+   animation-delay: 2s; 
+   animation-timing-function: ease-in-out; 
+   animation-direction: alternate; 
+   animation-duration: 2s; 
+   animation-iteration-count: 2; 
+}
+
+@keyframes animation6 {
+	0% { transform: rotate(0deg);
+       border-radius: 0%;
+	}
+	
+	100% {
+          transform: rotate(210deg); 
+          border-radius: 50%;
+          width: 80px;
+          height: 80px;
+	}
+}
+.div6 {
+ animation-name: animation6; 
+   animation-delay: 2s; 
+   animation-timing-function: ease-in-out; 
+   animation-direction: alternate; 
+   animation-duration: 2s; 
+   animation-iteration-count: 2; 
+}
+
+@keyframes animation7 {
+	0% { transform: rotate(0deg);
+       border-radius: 0%;
+	}
+	
+	100% {
+          transform: rotate(180deg); 
+          border-radius: 50%;
+          width: 80px;
+          height: 80px;
+	}
+}
+.div7 {
+ animation-name: animation7; 
+   animation-delay: 2s; 
+   animation-timing-function: ease-in-out; 
+   animation-direction: alternate; 
+   animation-duration: 2s; 
+   animation-iteration-count: 2; 
+}
+
+@keyframes animation8 {
+	0% { transform: rotate(0deg);
+       border-radius: 0%;
+	}
+	
+	100% {
+          transform: rotate(150deg); 
+          border-radius: 50%;
+          width: 80px;
+          height: 80px;
+	}
+}
+.div8 {
+ animation-name: animation8; 
+   animation-delay: 2s; 
+   animation-timing-function: ease-in-out; 
+   animation-direction: alternate; 
+   animation-duration: 2s; 
+   animation-iteration-count: 2; 
+}
+
+@keyframes animation9 {
+	0% { transform: rotate(0deg);
+       border-radius: 0%;
+	}
+	
+	100% {
+          transform: rotate(120deg); 
+          border-radius: 50%;
+          width: 80px;
+          height: 80px;
+	}
+}
+.div9 {
+ animation-name: animation9; 
+   animation-delay: 2s; 
+   animation-timing-function: ease-in-out; 
+   animation-direction: alternate; 
+   animation-duration: 2s; 
+   animation-iteration-count: 2; 
+}
+
+@keyframes animation10 {
+	0% { transform: rotate(0deg);
+       border-radius: 0%;
+	}
+	
+	100% {
+          transform: rotate(90deg); 
+          border-radius: 50%;
+          width: 80px;
+          height: 80px;
+	}
+}
+.div10 {
+ animation-name: animation10; 
+   animation-delay: 2s; 
+   animation-timing-function: ease-in-out; 
+   animation-direction: alternate; 
+   animation-duration: 2s; 
+   animation-iteration-count: 2; 
+}
+
+@keyframes animation11 {
+	0% { transform: rotate(0deg);
+       border-radius: 0%;
+	}
+	
+	100% {
+          transform: rotate(60deg); 
+          border-radius: 50%;
+          width: 80px;
+          height: 80px;
+	}
+}
+.div11 {
+ animation-name: animation11; 
+   animation-delay: 2s; 
+   animation-timing-function: ease-in-out; 
+   animation-direction: alternate; 
+   animation-duration: 2s; 
+   animation-iteration-count: 2; 
+}
+
+@keyframes animation12 {
+	0% { transform: rotate(0deg);
+       border-radius: 0%;
+	}
+	
+	100% {
+          transform: rotate(315deg); 
+          border-radius: 50%;
+          width: 80px;
+          height: 80px;
+	}
+}
+.div12 {
+ animation-name: animation12; 
+   animation-delay: 2s; 
+   animation-timing-function: ease-in-out; 
+   animation-direction: alternate; 
+   animation-duration: 2s; 
+   animation-iteration-count: 2; 
+}
+
+@keyframes animation13 {
+	0% { transform: rotate(0deg);
+       border-radius: 0%;
+	}
+	
+	100% {
+          transform: rotate(285deg); 
+          border-radius: 50%;
+          width: 80px;
+          height: 80px;
+	}
+}
+.div13 {
+ animation-name: animation13; 
+   animation-delay: 2s; 
+   animation-timing-function: ease-in-out; 
+   animation-direction: alternate; 
+   animation-duration: 2s; 
+   animation-iteration-count: 2; 
+}
+
+@keyframes animation14 {
+	0% { transform: rotate(0deg);
+       border-radius: 0%;
+	}
+	
+	100% {
+          transform: rotate(255deg); 
+          border-radius: 50%;
+          width: 80px;
+          height: 80px;
+	}
+}
+.div14 {
+ animation-name: animation14; 
+   animation-delay: 2s; 
+   animation-timing-function: ease-in-out; 
+   animation-direction: alternate; 
+   animation-duration: 2s; 
+   animation-iteration-count: 2; 
+}
+
+@keyframes animation15 {
+	0% { transform: rotate(0deg);
+       border-radius: 0%;
+	}
+	
+	100% {
+          transform: rotate(195deg); 
+          border-radius: 50%;
+          width: 80px;
+          height: 80px;
+	}
+}
+.div15 {
+ animation-name: animation15; 
+   animation-delay: 2s; 
+   animation-timing-function: ease-in-out; 
+   animation-direction: alternate; 
+   animation-duration: 2s; 
+   animation-iteration-count: 2; 
+}
+
+@keyframes animation16 {
+	0% { transform: rotate(0deg);
+       border-radius: 0%;
+	}
+	
+	100% {
+          transform: rotate(165deg); 
+          border-radius: 50%;
+          width: 80px;
+          height: 80px;
+	}
+}
+.div16 {
+ animation-name: animation16; 
+   animation-delay: 2s; 
+   animation-timing-function: ease-in-out; 
+   animation-direction: alternate; 
+   animation-duration: 2s; 
+   animation-iteration-count: 2; 
+}
+
+@keyframes animation17 {
+	0% { transform: rotate(0deg);
+       border-radius: 0%;
+	}
+	
+	100% {
+          transform: rotate(135deg); 
+          border-radius: 50%;
+          width: 80px;
+          height: 80px;
+	}
+}
+.div17 {
+ animation-name: animation17; 
+   animation-delay: 2s; 
+   animation-timing-function: ease-in-out; 
+   animation-direction: alternate; 
+   animation-duration: 2s; 
+   animation-iteration-count: 2; 
+}
+.name {
+	height: 20px; 
+	width: 80px;  
+	font-family: 'Ubuntu' , sans-serif; 
+	font-weight: bold; 
+	color: white; 
+	background: transparent;  
+	animation-name: namee; 
+	animation-delay: 2s; 
+	animation-direction: alternate; 
+	animation-iteration-count: 2; 
+	animation-timing-function: ease-in-out; 
+	animation-duration: 2s;  
+}
+@keyframes namee {
+	0% { transform: rotate(0deg);
+
+	}
+	 50%{ text-shadow: 2px 2px 2px white;  
+	 	transform: rotate(-30deg);
+	 }
+	 90%{
+          border-bottom: 2px solid white; 
+	 }
+	100% {color : white; 
+          transform: rotate(135deg); 
+	}
+}

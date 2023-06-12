@@ -1,0 +1,26 @@
+* {
+	margin: 0; 
+
+}
+.div1 {
+	width: 200px ; 
+	height: 200px; 
+	background: purple ; 
+	display: flex;
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: center; 
+	border: 1px solid black ; 
+	border-radius: 10px; 
+
+}
+.div1 button{
+  width: 100px; 
+  height: 40px;
+  background: blue;  
+  border: 2px solid purple ;
+}
+
+.div1 p{
+	color: orange; 
+}

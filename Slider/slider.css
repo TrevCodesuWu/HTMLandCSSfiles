@@ -1,0 +1,42 @@
+
+
+.background {
+	width: 65vw;
+	height: 100vh;
+	background: url('37368.jpg');
+	overflow: hidden;
+	margin-top: -9px;
+	position: absolute; left: 35%;
+}
+.backleftimg {
+	width: 35vw; 
+	height: 100vh;
+    font-family: cursive;
+	background: linear-gradient(to right,black ,yellow,  black );
+    margin-top: -9px;
+    margin-left: -8.3px;
+    position: absolute;
+}
+
+.writing {
+	width: 35vw;
+	height: 100vh;
+	color: white;
+    display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	position: absolute;
+}
+h1{
+	font-size: 100px;
+	color: black;
+	margin-top: -20px;
+}
+p {
+	color: black;
+	margin-top: -20px;
+	position: absolute; bottom: 250px;
+	font-family: Arial,Helvetica,sans-serif ;
+
+}

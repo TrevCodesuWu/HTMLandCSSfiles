@@ -1,0 +1,43 @@
+* {
+	margin: 0; 
+	padding: 0; 
+	font-family: 'Ubuntu',sans-serif; 
+	background: limegreen;  
+}
+
+.container {
+	position: absolute; top: 20%; left: 28%; 
+	width: 600px; 
+	background: transparent;  
+	border-radius: 30px; 
+	height: 300px; 
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center;  
+	align-items: center; 
+}
+.longbar1 {
+	width: 400px; 
+	height: 45px; 
+	background: silver; 
+
+
+}
+.longbar2 {
+	width: 400px; 
+	height: 45px; 
+	background: silver ;    
+}
+
+
+.longbar3 {
+	width: 400px; 
+	height: 45px; 
+	background: silver;     
+}
+.both {
+	border: 2px solid black; 
+	box-shadow: 2px 2px 2px 2px black;   
+	border-radius: 30px; 
+	margin: 10px; 
+}

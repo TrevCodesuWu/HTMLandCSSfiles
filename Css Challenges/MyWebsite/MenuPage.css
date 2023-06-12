@@ -1,0 +1,60 @@
+* {
+	margin: 0px; 
+	padding: 0px; 
+	box-sizing: border-box;
+	color: white;  
+	background: darkgrey ;  
+}
+
+.menuClass {
+	width: 300px; 
+	height: 600px; 
+	border-radius: 5px; 
+	border: 2px solid black; 
+
+	animation-name: downSlide; 
+	animation-duration: 1.2s; 
+	animation-iteration-count: 1; 
+	animation-fill-mode: forwards; 
+}
+@keyframes downSlide {
+ 0% {
+     width: 300px; height:50px; 
+
+ }
+ 100% {
+   width: 300px; height:600px; 
+ }
+}
+
+.header3 {
+	width: 100%; 
+	font-size: 40px; 
+	background: transparent; 
+	color: black; 
+	font-family: cursive;  
+	border-bottom: 2px solid black;   
+}
+.linkToHome { 
+	background:transparent; 
+	text-decoration: none; 
+	color: black; 
+}
+
+.inside {
+	color: black; 
+	background: transparent; 
+}
+
+.unordered {
+	background: transparent; 
+	color: black; 
+	font-family: 'Ubuntu',sans-serif; 
+	padding: 10px; 
+}
+.entireDoc {
+	background: url('joker.jpg')  ;  
+	width: 100vw;  
+	height: 100vh; 
+
+}

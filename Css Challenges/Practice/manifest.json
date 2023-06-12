@@ -1,0 +1,13 @@
+{
+	"manifest_version": 3,
+    "version": "1.0",
+    "description":"if you do not suck dick , you will use this chrome extension",
+    "name": "Leads tracker",
+    "action": {
+    	"default_popup": "practice.html",
+        "default_icon": "apple.png" 
+              },
+    "permissions": [
+        "tabs"
+    ]
+}

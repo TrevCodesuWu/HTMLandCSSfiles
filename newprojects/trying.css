@@ -1,0 +1,16 @@
+*{
+	font-size: 30px; 
+	font-family: 'Ubuntu',sans-serif;
+}
+
+.extra{
+	border-bottom: 3px solid black;	
+}
+
+.form{
+	border-bottom: 3px solid black ;
+}
+
+button {
+	padding: 3px;
+}

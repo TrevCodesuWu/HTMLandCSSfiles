@@ -1,0 +1,32 @@
+.outter {
+	width: 100vw;
+	height: 100vh;
+	background: url('window.jpg') center no-repeat; /*selecting the image from the folder 
+	no repeat means that the image will not duplicate itself if ther is more space available  */
+    background-size: 100%; 
+	position: absolute; 
+	overflow: hidden;
+	margin-top:  -8px; 
+	margin-left: -8px;
+	z-index: -1;     /* the order which will be shown */ 
+}
+
+
+.square {
+	width: 10%;
+	height: 10vh;
+	 font-size: 30px;
+	color: white;  
+	font-family: 'Ubuntu' , sans-serif;
+	background: transparent ; 
+    position : absolute; 
+    border: 1px solid white;
+	 left: 42% ; 
+	 top: 42%; 
+    z-index: 1;
+	display: flex; 
+	justify-content : center ; 
+	align-items :  center ; 
+	
+}
+

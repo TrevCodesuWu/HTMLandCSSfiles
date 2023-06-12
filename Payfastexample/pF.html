@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+	<form action="https://sandbox.payfast.co.za/eng/process" method="post"> 
+                                                <input type="hidden" name="merchant_id" value="10029388" />
+                                                <input type="hidden" name="merchant_key" value="bvuhhdzq7sjle" />
+                                               
+                                                <input type="hidden"
+                                                       name="return_url"
+                                                       value="https://localhost:44358/" />
+                                                <input type="hidden"
+                                                       name="cancel_url"
+                                                       value="https://localhost:44358/"/>
+
+                                                <input type="hidden" name="amount" value="23000" />
+                                                <input type="hidden" name="payment_method" value="cc" />
+                                                <input type="hidden" name="item_name" id="orderNo" value="Order 66" />
+
+                                                <button type="submit"  class="btn btn-dark mt-2" style="padding: 5px 15px; border-radius: 5px; background-color: limegreen; ">
+                                                    Pay amount
+                                                    <i class="fa fa-dollar"></i>
+                                                </button>
+                                            </form>
+</body>
+</html>

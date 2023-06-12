@@ -1,0 +1,1 @@
+let name = document.windowprompt(' hello user'); 

@@ -1,0 +1,50 @@
+* {
+	margin: 0px; 
+	padding: 0px;
+    font-family: 'Ubuntu',sans-serif; 
+}
+.button1 {
+	width: 100px; 
+	height: 30px; 
+	border: 2px solid black; 
+	border-radius: 10px; 
+	color: white;   
+	background: midnightblue;  
+	position: absolute; top: 47%; left: 47%; 
+}
+.button1:hover {
+	border: 1px solid white; 
+	color: white;   
+}
+.header1 {
+	color: white; 
+}
+.div1 {
+	width: 600px; 
+	height: 200px; 
+	overflow-x: hidden; 
+	overflow-y: hidden;
+	display: flex; 
+	flex-direction: row ;
+	background: lightblue;  
+	justify-content: center; 
+
+}
+
+.imagesAll {
+	width: 150px; 
+	height: 150px;
+	margin: 10px; 
+	border-radius: 50%;  
+	border: 4px solid darkblue; 
+}
+.overHead {
+	width: 700px; 
+	height: 300px; 
+	position: absolute; top: 15%; left: 24%; 
+	background: darkblue;   
+	display: flex; 
+   flex-direction: column; 
+   justify-content: center; 
+   align-items: center; 
+}

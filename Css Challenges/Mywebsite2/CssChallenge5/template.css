@@ -1,0 +1,150 @@
+* {
+	padding: 0; 
+	margin: 0; 
+	font-family:  sans-serif; 
+}
+.buttonBack {
+	position: absolute; top: 0; left: 0; 
+}
+ body {
+ 	width: 100vw ; 
+ 	height: 100vh; 
+ 	background: linear-gradient(to bottom, lightblue , mediumblue);
+
+ 	animation-name: anim; 
+ 	animation-duration: 2s; 
+ 	animation-timing-function: linear; 
+ 	animation-iteration-count: 1; 
+ 	animation-fill-mode: forwards; 
+
+ 	transition-property: all; 
+ 	transition-duration: 2; 
+ }
+
+ @keyframes anim {
+ 	0% {
+ 	background: pink ;  
+ 	}50%{
+ 	
+ 	background: purple;    
+ 	}
+
+ 	100%{
+ 	background: darkblue;    
+ 	}
+ }
+.cover {
+	width: 600px; 
+	height: 400px;  
+	background: black; 
+	display: flex; 
+	justify-content: center; 
+	border-radius: 4px; 
+	align-items: center; 
+	position: absolute; top: 23% ;left: 29%;	
+}
+.error {
+	color: red; 
+	margin-top: 5px; 
+	font-size: 12px; 
+}
+.header {
+	width: 140px; 
+	border: 1px solid darkgrey;   
+	border-radius: 50%; 
+	height: 140px; 
+	position: absolute;  top: -17%; 
+	z-index: 2; 
+	background: darkgrey ; 
+	overflow: hidden; 
+	display: flex; 
+	justify-content: center; 
+	align-items: center;  
+}
+.imageHeader {
+	width: 280px; 
+	background: transparent; 
+	border: 2px solid black; 
+	height: 140px; 
+}
+.content {
+	width:500px;  
+	height: 230px; 
+	background: black; 
+	position: relative; top: 52px; 
+	border-radius: 3px; 
+	border: 1px solid grey; 
+	padding:15px; 
+}
+.labelStyling {
+	font-size: 15px; 
+	font-weight: lighter;  
+	background: black; 
+	padding: 4px 10px;   
+	color: white; 
+	margin-top: 7px;  
+
+}
+
+.inputText{
+	width: 100%;  
+	height: 30px; 
+	font-size: 15px; 
+	position: relative; left: -1px; 
+	margin: 7px 0px; 
+	background: black ;
+	color: white; 
+	border: none; 
+	border-bottom: 1px solid white;  
+}
+.heading {
+	position: absolute; 
+	font-family: "Trebuchet MS"; 
+	font-size: 22px; 
+	margin-bottom: 9px; 
+	color: white; 
+	background: transparent; 
+	bottom: 265px; left: 228px;  
+}
+.separateClass {
+	padding-left: 10px; 
+}
+.button1 {
+	width: 100%; 
+	height: 40px ; 
+	border-radius: 10px;
+	margin-top: 10px; 
+	color: white; 
+	text-transform: uppercase; 
+	font-size: 15px; 
+	background: darkblue;  
+	border: 2px solid white; 
+}
+
+.link1 {
+	font-size: 9.5px; 
+	width: 80px; 
+    color:silver; 
+    margin-top: 8px; 
+    background: transparent; 
+}
+a {
+	text-decoration: none; 
+}
+.link1:hover {
+	color: yellow; 
+}
+.link2:hover {
+	color: yellow; 
+}
+.button1:hover {
+	color: yellow; 
+}
+
+.link2 {
+	width: 80px; 
+	color: silver; 
+	background: transparent; 
+	margin-top: 8px; 
+	font-size: 9.5px; 
+}

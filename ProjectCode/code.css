@@ -1,0 +1,101 @@
+ body {
+ 	width: 100vw;
+ 	height: 100vh;
+ 	background: linear-gradient(to right , lightblue ,lightskyblue ,  blue ,  darkblue);
+	margin: 0px;
+	padding: 0px;
+	font-size: 25px;
+	font-family: 'Ubuntu',sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.outerCircle {
+ width: 300px;
+ height: 300px;
+ border-radius: 50%;
+ border: 2px solid black;
+ background: linear-gradient(to right , lightskyblue , blue);
+ position: relative;
+
+}
+.number {
+	--rotation:0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transform: rotate(var(--rotation));
+
+}
+
+.one {
+	--rotation: 30deg;
+}
+.two {
+	--rotation: 60deg;
+}
+.three {
+	--rotation: 90deg;
+}
+.four {
+	--rotation: 120deg;
+}
+.five {
+	--rotation: 150deg;
+}
+.six {
+	--rotation: 180deg;
+}
+.seven {
+	--rotation: 210deg;
+}
+.eight {
+	--rotation: 240deg;
+}
+.nine {
+	--rotation: 270deg;
+}
+.ten {
+	--rotation: 300deg;
+}
+.eleven {
+	--rotation: 330deg;
+}
+.minuteHand {
+	width: 10px;
+	height: 40%;
+	background-color: darkslateblue ;
+	position: absolute; top: 10%;left: 48.33%;
+	border-radius: 30px;
+	z-index: 2;
+}
+
+.middleDot {
+	width: 17px;
+	height: 17px;
+	border-radius: 50%;
+	background-color: black;
+	position: absolute; top: 47.5%; left: 47.5%;
+	z-index: 5;
+
+}
+.hourHand {
+ width: 13px;
+ height: 20%;
+ border-radius: 30px;
+ position: absolute;top: 30%; left: 48%;
+ background-color: black;
+ z-index: 3;
+
+}
+.secondHand {
+	width: 3px;
+	height: 46%;
+	border-radius: 25px;
+	background-color: lightskyblue;
+	position: absolute; top: 5%; left: 49.7%;
+	z-index: 4;
+}
